@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Robot / pabot output
+results/
+output.xml
+log.html
+report.html
+pabot_results/
+.pabotsuitenames
+
+# Secrets - never commit
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.jks
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
